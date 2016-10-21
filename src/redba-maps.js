@@ -27,4 +27,52 @@
 (function($, google, undefined){
   'use strict';
 
+  if (!google || !google.maps){
+    throw new Error('google.maps es necesario');
+  }
+
+  if (!$){
+    throw new Error('jQuery es necesario');
+  }
+
+  /**
+   * Utils contiene metodos para trabajar con Google Maps
+   */
+  var Utils = {};
+
+  /**
+   * Distrito encapsula la funcionalidad para
+   * manipular google.maps.Polygon como distritos
+   * 
+   * @param {Object} ops
+   */
+  function Distrito(ops){
+    var self = this;
+
+    return self;
+  }
+
+  /**
+   * Region encapsula la funcionalidad para
+   * manipular google.maps.Polygon como regiones
+   * 
+   * @param {Object} ops
+   */
+  function Region(ops){
+    var self = this;
+
+    return self;
+  }
+
+  /**
+   * RedbaMap
+   * 
+   * @param {Object} ops
+   */
+  function RedbaMap(ops){
+    var self = this;
+
+    return self;    
+  }
+
 })(jQuery, google);
