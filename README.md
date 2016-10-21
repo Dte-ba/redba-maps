@@ -1,4 +1,4 @@
-# RED BA - Para Google Maps
+# Regiones Educativas y Distritos BA - Para Google Maps
 
 Regiones Educativas y Distritos de la Provincia de Buenos Aires para Google Maps
 

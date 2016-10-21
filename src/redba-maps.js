@@ -28,11 +28,11 @@
   'use strict';
 
   if (!google || !google.maps){
-    throw new Error('google.maps es necesario');
+    console.log('WARNING: google.maps is not defined');
   }
 
   if (!$){
-    throw new Error('jQuery es necesario');
+    console.log('WARNING: jQuery is not defined');
   }
 
   /**
