@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>RED BA</title>
+  <style>
+    html, body, main, #content, #map_canvas {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    #map_canvas {
+        position: relative;
+    }
+  </style>
+</head>
+<body>
+  
+  <div id="map_canvas"></div>
+  
+  <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyDQTpXj82d8UpCi97wzo_nKXL7nYrd4G70&language=es-AR&libraries=drawing,geometry,places"></script>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/async/2.1.2/async.min.js"></script>
+   
+  <script src="src/redba-maps.js"></script>
+
+  <script>
+    (function(){
+      var gm = google.maps;
+
+      var Map = gm.Map;
+      var MapTypeId = gm.MapTypeId;
+
+      $('document').ready(function(){
+        
+        let ele = document.getElementById('map_canvas');
+
+        var ops = {
+            center: { lat: -36.99483714719853, lng: -59.69601111984252 },
+            zoom: 7,
+            mapTypeId: MapTypeId.ROADMAP
+        };
+
+        var map = new Map(ele, ops);
+
+        window.rm = new RedbaMap({ 
+          dataUrl: '/data/regiones.json',
+          regionsUrl: '/data/regiones/${region}.json.gz',
+          distritosUrl: '/data/distritos/${distrito}.json.gz',
+          sedeIcon: '/assets/dot-circle-icon.png'
+        });
+
+        rm.load(function(err){
+          if (err){
+            throw err;
+          }
+          rm.setMap(map);
+
+          var centers = {};
+
+          rm.regions.forEach(function(r){
+            var central = r.distritos.find(function(d){
+              return d.central;
+            });
+
+            var c = RedbaMap.utils.getBounds(central).getCenter();
+            var latlng = { lat: c.lat(), lng: c.lng() };
+
+            centers[r.region] = latlng;
+          });
+
+          //console.log(JSON.stringify(centers, null, 2));
+        });
+
+      });
+    }).call(this);
+    
+  </script>
+
+</body>
+</html>
