@@ -1,0 +1,38 @@
+{
+  "name": "redba-maps",
+  "version": "1.0.0",
+  "description": "Regiones Educativas y Distritos de la Provincia de Buenos Aires para Google Maps",
+  "main": "lib/redba-maps.js",
+  "scripts": {
+    "build": "webpack --mode=build",
+    "dev": "webpack --progress --colors --watch --mode=dev",
+    "test": "mocha --compilers js:babel-core/register --colors -w ./test/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dte-ba/redba-maps.git"
+  },
+  "keywords": [
+    "maps",
+    "google",
+    "maps",
+    "ba"
+  ],
+  "author": "Dte-ba",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dte-ba/redba-maps/issues"
+  },
+  "homepage": "https://github.com/Dte-ba/redba-maps#readme",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.18.0",
+    "babel-eslint": "^7.1.0",
+    "babel-loader": "^6.2.6",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015": "^6.18.0",
+    "eslint": "^3.8.1",
+    "eslint-loader": "^1.6.0",
+    "webpack": "^1.13.3"
+  }
+}
