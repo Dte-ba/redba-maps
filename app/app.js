@@ -32,7 +32,7 @@ class AppController {
   $onInit() {
     let ele = document.getElementById('map_canvas');
     let ops = {
-      sedeIcon: '/app/assets/dot-circle-icon.png',
+      sedeIcon: 'app/assets/dot-circle-icon.png',
       streetViewControl: false,
       mapTypeControlOptions: { 
         position: ControlPosition.BOTTOM_LEFT 
