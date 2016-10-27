@@ -2,6 +2,8 @@
 
 Regiones Educativas y Distritos de la Provincia de Buenos Aires para Google Maps
 
+Ver [demo](https://dte-ba.github.io/redba-maps/)
+
 ## Descripción
 
 La Provincia de Buenos Aires se divide en [25 Regiones](https://github.com/Dte-ba/redba-maps/blob/master/REGIONES.md) Educativas, con esta librería JavaScript podrás interactuar con ellas mediante Google Maps.

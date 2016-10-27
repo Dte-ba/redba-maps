@@ -3,12 +3,72 @@
 <head>
   <meta charset="UTF-8">
   <title>RED BA</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css">
   <link rel="stylesheet" href="app/app.css">
 </head>
-<body ng-app="redbaApp" ng-cloak>
+<body ng-app="redbaApp" >
   
-  <div id="content" ng-controller="AppController">
+  <div id="content" ng-controller="AppController as ctrl" ng-cloak>
     <div id="map_canvas"></div>
+    <div id="omnibox-container" class="layout-autocomplete">
+      <div class="loading" ng-show="ctrl.loading">
+        <i class="fa fa-cog fa-spin fa-fw"></i> Cargando ...
+      </div>
+      <div layout="row">
+        <span class="logo">
+          <img src="app/assets/dte_logo.png" alt="">
+        </span>
+        <md-content flex layout-padding layout="column" class="searchbox-content" ng-hide="ctrl.loading">
+        <form ng-submit="$event.preventDefault()">
+          <md-autocomplete
+              ng-disabled="ctrl.isDisabled"
+              md-no-cache="ctrl.noCache"
+              md-selected-item="ctrl.selectedItem"
+              md-search-text-change="ctrl.searchTextChange(ctrl.searchText)"
+              md-search-text="ctrl.searchText"
+              md-selected-item-change="ctrl.selectedItemChange(item)"
+              md-items="item in ctrl.querySearch(ctrl.searchText)"
+              md-item-text="item.caption"
+              md-min-length="0"
+              placeholder="Buscá por CUE, Región, Distrito"
+              md-menu-class="autocomplete-custom-template",
+              ng-model-options="{ 'debounce': 300 }"
+              >
+            <md-item-template>
+              <span class="item-title">
+                <i class="fa" ng-class="item.icon"></i>
+                <span> {{item.caption}} </span>
+              </span>
+              <span class="item-metadata">
+                <span class="item-metastat" ng-repeat="meta in item.metastats">
+                  <small><i class="fa" ng-class="meta.icon"></i> <strong>{{meta.total}}</strong> {{meta.caption}}</small>
+                </span>
+              </span>
+            </md-item-template>
+          </md-autocomplete>
+        </form>
+      </md-content>
+    </div>
+      </div>
+      <div class="information-content"  ng-hide="ctrl.loading">
+        <md-card ng-show="ctrl.selectedItem.type==='region'">
+         <md-card-content>
+           <h2><i class="fa fa-dot-circle-o"></i> {{ctrl.selectedItem.caption}}</h2>
+           <p ng-repeat="meta in ctrl.selectedItem.metastats">
+             <small><i class="fa" ng-class="meta.icon"></i> <strong>{{meta.total}}</strong> {{meta.caption}}</small>
+           </p>
+         </md-card-content>
+        </md-card>
+        <md-card ng-show="ctrl.selectedItem.type==='distrito'">
+         <md-card-content>
+           <h2><i class="fa fa-dot-circle-o"></i> {{ctrl.selectedItem.caption}}</h2>
+           <p ng-repeat="meta in ctrl.selectedItem.metastats">
+             <small><i class="fa" ng-class="meta.icon"></i> <strong>{{meta.total}}</strong> {{meta.caption}}</small>
+           </p>
+         </md-card-content>
+        </md-card>
+      </div>
   </div>
 
   <a href="https://github.com/Dte-ba/redba-maps" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>

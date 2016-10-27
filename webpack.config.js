@@ -1,6 +1,5 @@
 var webpack = require('webpack');
 var WebpackDevServer = require("webpack-dev-server");
-var UglifyJsPlugin = webpack.optimize.UglifyJsPlugin;
 var path = require('path');
 var env = require('yargs').argv.mode;
 
@@ -10,7 +9,18 @@ var libraryFilename = 'redba-maps';
 var plugins = [], outputFile, bundleFile;
 
 if (env === 'build') {
-  plugins.push(new UglifyJsPlugin({ minimize: true }));
+   
+  plugins.push(
+    new webpack.NoErrorsPlugin(),
+    new webpack.optimize.DedupePlugin(),
+    new webpack.optimize.UglifyJsPlugin({ 
+      minimize: true,
+      sourceMap: true,
+      mangle: false,
+      warnings: false,
+   })
+  );
+
   outputFile = libraryFilename + '.min.js';
   bundleFile = 'app.bundle.min.js';
 } else {
@@ -35,7 +45,6 @@ var config = {
   },
   externals: {
     "google": "google",
-    "lodash": "_",
     'RedbaMap': 'RedbaMap',
     'jquery': '$'
   },
@@ -45,11 +54,6 @@ var config = {
         test: /(\.jsx|\.js)$/,
         loader: 'babel',
         exclude: /(node_modules|bower_components)/
-      },
-      {
-        test: /\.scss$/,
-        exclude: /node_modules/,
-        loaders: ['raw-loader', 'sass-loader'] // sass-loader not scss-loader
       },
       //{
       //  test: /(\.jsx|\.js)$/,

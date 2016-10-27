@@ -25,7 +25,11 @@
   },
   "homepage": "https://github.com/Dte-ba/redba-maps#readme",
   "devDependencies": {
+    "@types/lodash": "^4.14.37",
     "angular": "^1.5.8",
+    "angular-animate": "^1.5.8",
+    "angular-aria": "^1.5.8",
+    "angular-material": "^1.1.1",
     "babel": "^6.5.2",
     "babel-core": "^6.18.0",
     "babel-eslint": "^7.1.0",

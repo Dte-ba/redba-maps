@@ -8,3 +8,67 @@ html, body, #content, #map_canvas {
 #map_canvas {
     position: relative;
 }
+
+.logo {
+  padding-top: 20px;
+  padding-left: 8px;
+}
+.logo img {
+  width: 80px;
+}
+
+#omnibox-container {
+    top: 0;
+    position: absolute;
+    z-index: 4;
+}
+
+.searchbox-content {
+  background: none;
+}
+
+.autocomplete-custom-template li {
+  border-bottom: 1px solid #ccc;
+  height: auto;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  white-space: normal;
+}
+
+.autocomplete-custom-template li:last-child {
+  border-bottom-width: 0; 
+}
+
+.autocomplete-custom-template .item-title,
+.autocomplete-custom-template .item-metadata {
+  display: block;
+  line-height: 2; 
+}
+
+.autocomplete-custom-template .item-metadata {
+  color: #777;
+}
+
+.layout-autocomplete {
+  width: 40%;
+}
+
+.item-metadata .item-metastat:first-child:before {
+    display: none;
+}
+
+.item-metadata .item-metastat:before {
+    content: "|";
+}
+
+.loading {
+  padding: 10px;
+}
+
+.information-content {
+  width: 20%;
+  top: 64px;
+  position: absolute;
+  z-index: 4;
+  padding-left: 8px;
+}
