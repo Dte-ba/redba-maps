@@ -26,11 +26,101 @@
  */
 'use strict';
 
-export default class RedbaMap {
-  constructor() {
-    this._name = 'RedbaMap';
+import google from 'google';
+import utils from './utils';
+import RegionPolygon from './region-polygon';
+
+const {MapTypeId, Map} = google.maps; 
+
+export default class RedbaMap extends Map {
+  constructor(ele, ops) {
+    let _regions = ops.regions;
+    let regionsDataField = ops.regionsDataField;
+    let fetchRegion = ops.fetchRegion;
+    let fetchDistrict = ops.fetchDistrict;
+    let sedeIcon = ops.sedeIcon;
+
+    if (!fetchRegion){
+      throw new Error('The ops.fetchRegion is required, define ops.fetchRegion(idRegion)');
+    }
+
+    if (!fetchDistrict){
+      throw new Error('The ops.fetchDistrict is required, define ops.fetchDistrict(idDistrict)');
+    }
+
+    let baOps = {
+      center: {
+        lat: -36.99483714719853,
+        lng: -59.69601111984252
+      },
+      zoom: 7,
+      mapTypeId: MapTypeId.ROADMAP
+    };
+    
+    let gmops = Object.assign({}, ops, baOps);
+    
+    super(ele, gmops);
+
+    this.setData(_regions);
+    this.regionsDataField = regionsDataField;
+    this.fetchRegion = fetchRegion;
+    this.fetchDistrict = fetchDistrict;
+    this.showSede = ops.showSede || false;
+    this.sedeIcon = ops.sedeIcon;
   }
-  get name() {
-    return this._name;
+
+  get baRegions(){
+    if (!this._regions){
+      this._regions = [];
+    }
+    return this._regions;
+  }
+
+  _createRegions(data){
+    if (this.regionsDataField){
+      data = data[this.regionsDataField];
+    } else if (!(data instanceof Array)){
+      if (data.hasOwnProperty('data') && (data['data'] instanceof Array)){
+        data = data['data'];
+      } else {
+        throw new Error('Can\'t get data from regions, please set ops.regionsDataField');
+      }
+    }
+    data.forEach(d => {
+      var rops = {
+        map: this,
+        region: d.region,
+        color: d.color,
+        centralPosition: d.centralPosition,
+        centralName: d.centralName,
+        distritos: d.distritos,
+        fetch: this.fetchRegion,
+        fetchDistrict: this.fetchDistrict,
+        showSede: this.showSede,
+        sedeIcon: this.sedeIcon
+      };
+      this.baRegions.push(new RegionPolygon(rops));
+    });
+  }
+
+  emit(event, obj){
+    google.maps.event.trigger(this, event, obj);
+  }
+
+  setData(data){
+    if (!data){
+      return;
+    }
+    if (utils.isPromise(data)){
+      data
+        .then(items => {
+          this._createRegions(items);
+        })
+        .catch( err => {
+          console.log(err);
+        });
+    } else {
+      this._createRegions(data);
+    }
   }
 }

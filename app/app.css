@@ -1,0 +1,10 @@
+html, body, #content, #map_canvas {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#map_canvas {
+    position: relative;
+}
