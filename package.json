@@ -4,8 +4,8 @@
   "description": "Regiones Educativas y Distritos de la Provincia de Buenos Aires para Google Maps",
   "main": "lib/redba-maps.js",
   "scripts": {
-    "build": "webpack --mode=build",
-    "dev": "webpack --progress --colors --watch --watch-poll --mode=dev",
+    "build": "webpack --config ./webpack.prod.js",
+    "dev": "webpack --progress --colors --watch --watch-poll --config ./webpack.dev.js",
     "test": "mocha --compilers js:babel-core/register --colors -w ./test/*.spec.js"
   },
   "repository": {

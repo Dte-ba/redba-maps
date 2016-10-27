@@ -127,7 +127,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	      var ele = document.getElementById('map_canvas');
 	      var ops = {
-	        sedeIcon: '/app/assets/dot-circle-icon.png',
+	        sedeIcon: 'app/assets/dot-circle-icon.png',
 	        streetViewControl: false,
 	        mapTypeControlOptions: {
 	          position: ControlPosition.BOTTOM_LEFT
