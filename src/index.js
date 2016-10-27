@@ -38,7 +38,6 @@ export default class RedbaMap extends Map {
     let regionsDataField = ops.regionsDataField;
     let fetchRegion = ops.fetchRegion;
     let fetchDistrict = ops.fetchDistrict;
-    let sedeIcon = ops.sedeIcon;
 
     if (!fetchRegion){
       throw new Error('The ops.fetchRegion is required, define ops.fetchRegion(idRegion)');

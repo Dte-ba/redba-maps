@@ -82,10 +82,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 	
-	var _google$maps = _google2.default.maps,
-	    MapTypeId = _google$maps.MapTypeId,
-	    Map = _google$maps.Map,
-	    ControlPosition = _google$maps.ControlPosition;
+	var ControlPosition = _google2.default.maps.ControlPosition;
 	
 	var AppController = function () {
 	  function AppController($http) {
@@ -109,14 +106,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	        showSede: true
 	      };
 	
-	      ops.regions = this.$http.get('/data/regiones.json');
+	      ops.regions = this.$http.get('data/regiones.json');
 	
 	      ops.fetchRegion = function (idRegion) {
-	        return _this.$http.get('/data/regiones/' + idRegion + '.json');
+	        return _this.$http.get('data/regiones/' + idRegion + '.json');
 	      };
 	
 	      ops.fetchDistrict = function (idDistrict) {
-	        return _this.$http.get('/data/regiones/' + idRegion + '.json');
+	        return _this.$http.get('data/regiones/' + idRegion + '.json');
 	      };
 	
 	      this.map = new _RedbaMap2.default(ele, ops);
