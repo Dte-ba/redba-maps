@@ -1,0 +1,1357 @@
+[
+  {
+    "region": 1,
+    "color": "#f2f5fc",
+    "centralPosition": {
+      "lat": -35.03523905000001,
+      "lng": -58.021373049999966
+    },
+    "centralName": "La Plata",
+    "distritos": [
+      {
+        "id": "113",
+        "fullname": "Partido de Berisso",
+        "name": "Berisso",
+        "alias": "BERISSO",
+        "central": false,
+        "aid": 2435142
+      },
+      {
+        "id": "014",
+        "fullname": "Partido de Brandsen",
+        "name": "Brandsen",
+        "alias": "C. BRANDSEN",
+        "central": false,
+        "aid": 2499213
+      },
+      {
+        "id": "114",
+        "fullname": "Partido de Ensenada",
+        "name": "Ensenada",
+        "alias": "ENSENADA",
+        "central": false,
+        "aid": 2401891
+      },
+      {
+        "id": "001",
+        "fullname": "Partido de La Plata",
+        "name": "La Plata",
+        "alias": "LA PLATA",
+        "central": true,
+        "aid": 2499263
+      },
+      {
+        "id": "064",
+        "fullname": "Partido de Magdalena",
+        "name": "Magdalena",
+        "alias": "MAGDALENA",
+        "central": false,
+        "aid": 2512537
+      },
+      {
+        "id": "134",
+        "fullname": "Partido de Punta Indio",
+        "name": "Punta Indio",
+        "alias": "PUNTA INDIO",
+        "central": false,
+        "aid": 2512592
+      }
+    ]
+  },
+  {
+    "region": 2,
+    "color": "#d1dbf2",
+    "centralPosition": {
+      "lat": -34.67922625,
+      "lng": -58.343193449999944
+    },
+    "centralName": "Avellaneda",
+    "distritos": [
+      {
+        "id": "005",
+        "fullname": "Partido de Avellaneda",
+        "name": "Avellaneda",
+        "alias": "AVELLANEDA",
+        "central": true,
+        "aid": 2146109
+      },
+      {
+        "id": "111",
+        "fullname": "Partido de Lanús",
+        "name": "Lanús",
+        "alias": "LANUS",
+        "central": false,
+        "aid": 1421519
+      },
+      {
+        "id": "062",
+        "fullname": "Partido de Lomas de Zamora",
+        "name": "Lomas de Zamora",
+        "alias": "L. DE ZAMORA",
+        "central": false,
+        "aid": 2400639
+      }
+    ]
+  },
+  {
+    "region": 3,
+    "color": "#f2f5fc",
+    "centralPosition": {
+      "lat": -34.773504499999994,
+      "lng": -58.61879049999999
+    },
+    "centralName": "La Matanza",
+    "distritos": [
+      {
+        "id": "069",
+        "fullname": "Partido de La Matanza",
+        "name": "La Matanza",
+        "alias": "LA MATANZA",
+        "central": true,
+        "aid": 1749088
+      }
+    ]
+  },
+  {
+    "region": 4,
+    "color": "#f5ebbd",
+    "centralPosition": {
+      "lat": -34.7399906,
+      "lng": -58.26991220000002
+    },
+    "centralName": "Quilmes",
+    "distritos": [
+      {
+        "id": "119",
+        "fullname": "Partido de Berazategui",
+        "name": "Berazategui",
+        "alias": "BERAZATEGUI",
+        "central": false,
+        "aid": 2345171
+      },
+      {
+        "id": "032",
+        "fullname": "Partido de Florencio Varela",
+        "name": "Florencio Varela",
+        "alias": "F. VARELA",
+        "central": false,
+        "aid": 2404193
+      },
+      {
+        "id": "085",
+        "fullname": "Partido de Quilmes",
+        "name": "Quilmes",
+        "alias": "QUILMES",
+        "central": true,
+        "aid": 2068012
+      }
+    ]
+  },
+  {
+    "region": 5,
+    "color": "#e0debf",
+    "centralPosition": {
+      "lat": -34.8321214,
+      "lng": -58.37012564999998
+    },
+    "centralName": "Almirante Brown",
+    "distritos": [
+      {
+        "id": "004",
+        "fullname": "Partido de Almirante Brown",
+        "name": "Almirante Brown",
+        "alias": "A. BROWN",
+        "central": true,
+        "aid": 2402606
+      },
+      {
+        "id": "030",
+        "fullname": "Partido de Esteban Echeverría",
+        "name": "Esteban Echeverría",
+        "alias": "E. ECHEVERRIA",
+        "central": false,
+        "aid": 2401204
+      },
+      {
+        "id": "130",
+        "fullname": "Partido de Ezeiza",
+        "name": "Ezeiza",
+        "alias": "EZEIZA",
+        "central": false,
+        "aid": 2447377
+      },
+      {
+        "id": "129",
+        "fullname": "Partido de Presidente Perón",
+        "name": "Presidente Perón",
+        "alias": "PTE. PERON",
+        "central": false,
+        "aid": 2403624
+      },
+      {
+        "id": "099",
+        "fullname": "Partido de San Vicente",
+        "name": "San Vicente",
+        "alias": "SAN VICENTE",
+        "central": false,
+        "aid": 2498924
+      }
+    ]
+  },
+  {
+    "region": 6,
+    "color": "#f2f5e3",
+    "centralPosition": {
+      "lat": -34.40035075000001,
+      "lng": -58.58564609999996
+    },
+    "centralName": "Tigre",
+    "distritos": [
+      {
+        "id": "095",
+        "fullname": "Partido de San Fernando",
+        "name": "San Fernando",
+        "alias": "SAN FERNANDO",
+        "central": false,
+        "aid": 2443418
+      },
+      {
+        "id": "096",
+        "fullname": "Partido de San Isidro",
+        "name": "San Isidro",
+        "alias": "SAN ISIDRO",
+        "central": false,
+        "aid": 1769044
+      },
+      {
+        "id": "055",
+        "fullname": "Partido de Tigre",
+        "name": "Tigre",
+        "alias": "TIGRE",
+        "central": true,
+        "aid": 2411762
+      },
+      {
+        "id": "109",
+        "fullname": "Partido de Vicente López",
+        "name": "Vicente López",
+        "alias": "VTE. LOPEZ",
+        "central": false,
+        "aid": 2752665
+      }
+    ]
+  },
+  {
+    "region": 7,
+    "color": "#f5ebbd",
+    "centralPosition": {
+      "lat": -34.5437713,
+      "lng": -58.56406285000003
+    },
+    "centralName": "General San Martín",
+    "distritos": [
+      {
+        "id": "045",
+        "fullname": "Partido de General San Martín",
+        "name": "General San Martín",
+        "alias": "G. SAN MARTIN",
+        "central": true,
+        "aid": 1719022
+      },
+      {
+        "id": "135",
+        "fullname": "Partido de Hurlingham",
+        "name": "Hurlingham",
+        "alias": "HURLINGHAM",
+        "central": false,
+        "aid": 2026612
+      },
+      {
+        "id": "117",
+        "fullname": "Partido de Tres de Febrero",
+        "name": "Tres de Febrero",
+        "alias": "T. DE FEBRERO",
+        "central": false,
+        "aid": 1767378
+      }
+    ]
+  },
+  {
+    "region": 8,
+    "color": "#e0debf",
+    "centralPosition": {
+      "lat": -34.6462274,
+      "lng": -58.611768549999965
+    },
+    "centralName": "Morón",
+    "distritos": [
+      {
+        "id": "136",
+        "fullname": "Partido de Ituzaingó",
+        "name": "Ituzaingó",
+        "alias": "ITUZAINGO",
+        "central": false,
+        "aid": 2018776
+      },
+      {
+        "id": "071",
+        "fullname": "Partido de Merlo",
+        "name": "Merlo",
+        "alias": "MERLO",
+        "central": false,
+        "aid": 2431612
+      },
+      {
+        "id": "100",
+        "fullname": "Partido de Morón",
+        "name": "Morón",
+        "alias": "MORON",
+        "central": true,
+        "aid": 1767342
+      }
+    ]
+  },
+  {
+    "region": 9,
+    "color": "#d1dbf2",
+    "centralPosition": {
+      "lat": -34.5537646,
+      "lng": -58.691894950000005
+    },
+    "centralName": "San Miguel",
+    "distritos": [
+      {
+        "id": "132",
+        "fullname": "Partido de José C. Paz",
+        "name": "José C. Paz",
+        "alias": "JOSE C. PAZ",
+        "central": false,
+        "aid": 2430431
+      },
+      {
+        "id": "133",
+        "fullname": "Partido de Malvinas Argentinas",
+        "name": "Malvinas Argentinas",
+        "alias": "M. ARGENTINAS",
+        "central": false,
+        "aid": 2430452
+      },
+      {
+        "id": "073",
+        "fullname": "Partido de Moreno",
+        "name": "Moreno",
+        "alias": "MORENO",
+        "central": false,
+        "aid": 2431386
+      },
+      {
+        "id": "131",
+        "fullname": "Partido de San Miguel",
+        "name": "San Miguel",
+        "alias": "SAN MIGUEL",
+        "central": true,
+        "aid": 2430369
+      }
+    ]
+  },
+  {
+    "region": 10,
+    "color": "#f5ebbd",
+    "centralPosition": {
+      "lat": -34.699738249999996,
+      "lng": -59.44286364999999
+    },
+    "centralName": "Mercedes",
+    "distritos": [
+      {
+        "id": "016",
+        "fullname": "Partido de Cañuelas",
+        "name": "Cañuelas",
+        "alias": "CAÑUELAS",
+        "central": false,
+        "aid": 2498288
+      },
+      {
+        "id": "057",
+        "fullname": "Partido de General Las Heras",
+        "name": "General Las Heras",
+        "alias": "G. LAS HERAS",
+        "central": false,
+        "aid": 1934039
+      },
+      {
+        "id": "044",
+        "fullname": "Partido de General Rodríguez",
+        "name": "General Rodríguez",
+        "alias": "G. RODRIGUEZ",
+        "central": false,
+        "aid": 2431653
+      },
+      {
+        "id": "063",
+        "fullname": "Partido de Luján",
+        "name": "Luján",
+        "alias": "LUJAN",
+        "central": false,
+        "aid": 2
+      },
+      {
+        "id": "067",
+        "fullname": "Partido de Marcos Paz",
+        "name": "Marcos Paz",
+        "alias": "MARCOS PAZ",
+        "central": false,
+        "aid": 2354919
+      },
+      {
+        "id": "070",
+        "fullname": "Partido de Mercedes",
+        "name": "Mercedes",
+        "alias": "MERCEDES",
+        "central": true,
+        "aid": 2457634
+      },
+      {
+        "id": "074",
+        "fullname": "Partido de Navarro",
+        "name": "Navarro",
+        "alias": "NAVARRO",
+        "central": false,
+        "aid": 2484110
+      },
+      {
+        "id": "093",
+        "fullname": "Partido de San Andrés de Giles",
+        "name": "San Andrés de Giles",
+        "alias": "S. A. DE GILES",
+        "central": false,
+        "aid": 2456577
+      },
+      {
+        "id": "101",
+        "fullname": "Partido de Suipacha",
+        "name": "Suipacha",
+        "alias": "SUIPACHA",
+        "central": false,
+        "aid": 2484090
+      }
+    ]
+  },
+  {
+    "region": 11,
+    "color": "#f2f5fc",
+    "centralPosition": {
+      "lat": -34.003048500000006,
+      "lng": -59.09675994999998
+    },
+    "centralName": "Zárate",
+    "distritos": [
+      {
+        "id": "015",
+        "fullname": "Partido de Campana",
+        "name": "Campana",
+        "alias": "CAMPANA",
+        "central": false,
+        "aid": 2451540
+      },
+      {
+        "id": "116",
+        "fullname": "Partido de Escobar",
+        "name": "Escobar",
+        "alias": "ESCOBAR",
+        "central": false,
+        "aid": 2443300
+      },
+      {
+        "id": "031",
+        "fullname": "Partido de Exaltación de la Cruz",
+        "name": "Exaltación de la Cruz",
+        "alias": "E. DE LA CRUZ",
+        "central": false,
+        "aid": 1
+      },
+      {
+        "id": "083",
+        "fullname": "Partido del Pilar",
+        "name": "Pilar",
+        "alias": "PILAR",
+        "central": false,
+        "aid": 2431954
+      },
+      {
+        "id": "047",
+        "fullname": "Partido de Zárate",
+        "name": "Zárate",
+        "alias": "ZARATE",
+        "central": true,
+        "aid": 2452288
+      }
+    ]
+  },
+  {
+    "region": 12,
+    "color": "#d1dbf2",
+    "centralPosition": {
+      "lat": -33.4678035,
+      "lng": -60.309009549999985
+    },
+    "centralName": "San Nicolás",
+    "distritos": [
+      {
+        "id": "011",
+        "fullname": "Partido de Arrecifes",
+        "name": "Arrecifes",
+        "alias": "ARRECIFES",
+        "central": false,
+        "aid": 2455558
+      },
+      {
+        "id": "010",
+        "fullname": "Partido de Baradero",
+        "name": "Baradero",
+        "alias": "BARADERO",
+        "central": false,
+        "aid": 2453281
+      },
+      {
+        "id": "121",
+        "fullname": "Partido de Capitán Sarmiento",
+        "name": "Capitán Sarmiento",
+        "alias": "C. SARMIENTO",
+        "central": false,
+        "aid": 2455548
+      },
+      {
+        "id": "086",
+        "fullname": "Partido de Ramallo",
+        "name": "Ramallo",
+        "alias": "RAMALLO",
+        "central": false,
+        "aid": 2455424
+      },
+      {
+        "id": "097",
+        "fullname": "Partido de San Nicolás",
+        "name": "San Nicolás",
+        "alias": "SAN NICOLAS",
+        "central": true,
+        "aid": 2453690
+      },
+      {
+        "id": "098",
+        "fullname": "Partido de San Pedro",
+        "name": "San Pedro",
+        "alias": "SAN PEDRO",
+        "central": false,
+        "aid": 2453543
+      }
+    ]
+  },
+  {
+    "region": 13,
+    "color": "#f2f5e3",
+    "centralPosition": {
+      "lat": -33.858322050000005,
+      "lng": -60.54147975000001
+    },
+    "centralName": "Pergamino",
+    "distritos": [
+      {
+        "id": "019",
+        "fullname": "Partido de Carmen de Areco",
+        "name": "Carmen de Areco",
+        "alias": "C. DE ARECO",
+        "central": false,
+        "aid": 2463037
+      },
+      {
+        "id": "022",
+        "fullname": "Partido de Colón",
+        "name": "Colón",
+        "alias": "COLON",
+        "central": false,
+        "aid": 2459899
+      },
+      {
+        "id": "081",
+        "fullname": "Partido de Pergamino",
+        "name": "Pergamino",
+        "alias": "PERGAMINO",
+        "central": true,
+        "aid": 2459663
+      },
+      {
+        "id": "089",
+        "fullname": "Partido de Rojas",
+        "name": "Rojas",
+        "alias": "ROJAS",
+        "central": false,
+        "aid": 2474121
+      },
+      {
+        "id": "066",
+        "fullname": "Partido de Salto",
+        "name": "Salto",
+        "alias": "SALTO",
+        "central": false,
+        "aid": 2461232
+      },
+      {
+        "id": "094",
+        "fullname": "Partido de San Antonio de Areco",
+        "name": "San Antonio de Areco",
+        "alias": "S. A. DE ARECO",
+        "central": false,
+        "aid": 2456452
+      }
+    ]
+  },
+  {
+    "region": 14,
+    "color": "#d1dbf2",
+    "centralPosition": {
+      "lat": -34.5470321,
+      "lng": -61.001410050000004
+    },
+    "centralName": "Junín",
+    "distritos": [
+      {
+        "id": "026",
+        "fullname": "Partido de Chacabuco",
+        "name": "Chacabuco",
+        "alias": "CHACABUCO",
+        "central": false,
+        "aid": 2479591
+      },
+      {
+        "id": "128",
+        "fullname": "Partido de Florentino Ameghino",
+        "name": "Florentino Ameghino",
+        "alias": "F. AMEGHINO",
+        "central": false,
+        "aid": 2557534
+      },
+      {
+        "id": "035",
+        "fullname": "Partido de General Arenales",
+        "name": "General Arenales",
+        "alias": "G. ARENALES",
+        "central": false,
+        "aid": 2475018
+      },
+      {
+        "id": "042",
+        "fullname": "Partido de General Pinto",
+        "name": "General Pinto",
+        "alias": "G. PINTO",
+        "central": false,
+        "aid": 2554695
+      },
+      {
+        "id": "048",
+        "fullname": "Partido de General Viamonte",
+        "name": "General Viamonte",
+        "alias": "G. VIAMONTE",
+        "central": false,
+        "aid": 2559810
+      },
+      {
+        "id": "053",
+        "fullname": "Partido de Junín",
+        "name": "Junín",
+        "alias": "JUNIN",
+        "central": true,
+        "aid": 2519224
+      },
+      {
+        "id": "058",
+        "fullname": "Partido de Leandro N. Alem",
+        "name": "Leandro N. Alem",
+        "alias": "L. N. ALEM",
+        "central": false,
+        "aid": 2554600
+      },
+      {
+        "id": "059",
+        "fullname": "Partido de Lincoln",
+        "name": "Lincoln",
+        "alias": "LINCOLN",
+        "central": false,
+        "aid": 2559673
+      }
+    ]
+  },
+  {
+    "region": 15,
+    "color": "#f2f5fc",
+    "centralPosition": {
+      "lat": -35.90993955,
+      "lng": -61.933930350000026
+    },
+    "centralName": "Pehuajó",
+    "distritos": [
+      {
+        "id": "003",
+        "fullname": "Partido de Alberti",
+        "name": "Alberti",
+        "alias": "ALBERTI",
+        "central": false,
+        "aid": 2559862
+      },
+      {
+        "id": "013",
+        "fullname": "Partido de Bragado",
+        "name": "Bragado",
+        "alias": "BRAGADO",
+        "central": false,
+        "aid": 2559813
+      },
+      {
+        "id": "017",
+        "fullname": "Partido de Carlos Casares",
+        "name": "Carlos Casares",
+        "alias": "C. CASARES",
+        "central": false,
+        "aid": 2571699
+      },
+      {
+        "id": "028",
+        "fullname": "Partido de Chivilcoy",
+        "name": "Chivilcoy",
+        "alias": "CHIVILCOY",
+        "central": false,
+        "aid": 2484220
+      },
+      {
+        "id": "118",
+        "fullname": "Partido de Hipólito Yrigoyen",
+        "name": "Hipólito Yrigoyen",
+        "alias": "H. IRIGOYEN",
+        "central": false,
+        "aid": 2580596
+      },
+      {
+        "id": "076",
+        "fullname": "Partido de Nueve de Julio",
+        "name": "Nueve de Julio",
+        "alias": "9 DE JULIO",
+        "central": false,
+        "aid": 2571745
+      },
+      {
+        "id": "079",
+        "fullname": "Partido de Pehuajó",
+        "name": "Pehuajó",
+        "alias": "PEHUAJO",
+        "central": true,
+        "aid": 2565320
+      }
+    ]
+  },
+  {
+    "region": 16,
+    "color": "#f5ebbd",
+    "centralPosition": {
+      "lat": -36.0559586,
+      "lng": -62.64251205000005
+    },
+    "centralName": "Trenque Lauquen",
+    "distritos": [
+      {
+        "id": "018",
+        "fullname": "Partido de Carlos Tejedor",
+        "name": "Carlos Tejedor",
+        "alias": "C. TEJEDOR",
+        "central": false,
+        "aid": 2564066
+      },
+      {
+        "id": "049",
+        "fullname": "Partido de General Villegas",
+        "name": "General Villegas",
+        "alias": "G. VILLEGAS",
+        "central": false,
+        "aid": 2557559
+      },
+      {
+        "id": "080",
+        "fullname": "Partido de Pellegrini",
+        "name": "Pellegrini",
+        "alias": "PELLEGRINI",
+        "central": false,
+        "aid": 2563454
+      },
+      {
+        "id": "088",
+        "fullname": "Partido de Rivadavia",
+        "name": "Rivadavia",
+        "alias": "RIVADAVIA",
+        "central": false,
+        "aid": 2563415
+      },
+      {
+        "id": "120",
+        "fullname": "Partido de Salliqueló",
+        "name": "Salliqueló",
+        "alias": "SALIQUELLO",
+        "central": false,
+        "aid": 2565000
+      },
+      {
+        "id": "106",
+        "fullname": "Partido de Trenque Lauquen",
+        "name": "Trenque Lauquen",
+        "alias": "T. LAUQUEN",
+        "central": true,
+        "aid": 2564357
+      },
+      {
+        "id": "127",
+        "fullname": "Partido de Tres Lomas",
+        "name": "Tres Lomas",
+        "alias": "TRES LOMAS",
+        "central": false,
+        "aid": 2564922
+      }
+    ]
+  },
+  {
+    "region": 17,
+    "color": "#f2f5e3",
+    "centralPosition": {
+      "lat": -35.59785055,
+      "lng": -57.90048194999997
+    },
+    "centralName": "Chascomús",
+    "distritos": [
+      {
+        "id": "027",
+        "fullname": "Partido de Chascomús",
+        "name": "Chascomús",
+        "alias": "CHASCOMUS",
+        "central": true,
+        "aid": 2516826
+      },
+      {
+        "id": "036",
+        "fullname": "Partido de General Belgrano",
+        "name": "General Belgrano",
+        "alias": "G. BELGRANO",
+        "central": false,
+        "aid": 2599608
+      },
+      {
+        "id": "041",
+        "fullname": "Partido de General Paz",
+        "name": "General Paz",
+        "alias": "G. PAZ",
+        "central": false,
+        "aid": 2512688
+      },
+      {
+        "id": "137",
+        "fullname": "Partido de Lezama",
+        "name": "Lezama",
+        "alias": "LEZAMA",
+        "central": false,
+        "aid": 2516844
+      },
+      {
+        "id": "072",
+        "fullname": "Partido de Monte",
+        "name": "Monte",
+        "alias": "MONTE",
+        "central": false,
+        "aid": 2512599
+      },
+      {
+        "id": "082",
+        "fullname": "Partido de Pila",
+        "name": "Pila",
+        "alias": "PILA",
+        "central": false,
+        "aid": 2612278
+      },
+      {
+        "id": "087",
+        "fullname": "Partido de Rauch",
+        "name": "Rauch",
+        "alias": "RAUCH",
+        "central": false,
+        "aid": 2612035
+      }
+    ]
+  },
+  {
+    "region": 18,
+    "color": "#d1dbf2",
+    "centralPosition": {
+      "lat": -36.41774,
+      "lng": -57.66594309999999
+    },
+    "centralName": "Dolores",
+    "distritos": [
+      {
+        "id": "006",
+        "fullname": "Partido de Ayacucho",
+        "name": "Ayacucho",
+        "alias": "AYACUCHO",
+        "central": false,
+        "aid": 2612454
+      },
+      {
+        "id": "021",
+        "fullname": "Partido de Castelli",
+        "name": "Castelli",
+        "alias": "CASTELLI",
+        "central": false,
+        "aid": 2613311
+      },
+      {
+        "id": "029",
+        "fullname": "Partido de Dolores",
+        "name": "Dolores",
+        "alias": "DOLORES",
+        "central": true,
+        "aid": 2616801
+      },
+      {
+        "id": "037",
+        "fullname": "Partido de General Guido",
+        "name": "General Guido",
+        "alias": "GUIDO",
+        "central": false,
+        "aid": 2614831
+      },
+      {
+        "id": "039",
+        "fullname": "Partido de General Lavalle",
+        "name": "General Lavalle",
+        "alias": "G. LAVALLE",
+        "central": false,
+        "aid": 2621565
+      },
+      {
+        "id": "040",
+        "fullname": "Partido de General Madariaga",
+        "name": "General Madariaga",
+        "alias": "G. MADARIAGA",
+        "central": false,
+        "aid": 2621593
+      },
+      {
+        "id": "123",
+        "fullname": "Partido de La Costa",
+        "name": "La Costa",
+        "alias": "P. DE LA COSTA",
+        "central": false,
+        "aid": 2621507
+      },
+      {
+        "id": "065",
+        "fullname": "Partido de Maipú",
+        "name": "Maipú",
+        "alias": "MAIPU",
+        "central": false,
+        "aid": 2616837
+      },
+      {
+        "id": "124",
+        "fullname": "Partido de Pinamar",
+        "name": "Pinamar",
+        "alias": "PINAMAR",
+        "central": false,
+        "aid": 2621525
+      },
+      {
+        "id": "104",
+        "fullname": "Partido de Tordillo",
+        "name": "Tordillo",
+        "alias": "TORDILLO",
+        "central": false,
+        "aid": 2616944
+      },
+      {
+        "id": "125",
+        "fullname": "Partido de Villa Gesell",
+        "name": "Villa Gesell",
+        "alias": "VILLA GESELL",
+        "central": false,
+        "aid": 2621531
+      }
+    ]
+  },
+  {
+    "region": 19,
+    "color": "#f5ebbd",
+    "centralPosition": {
+      "lat": -37.97250040000001,
+      "lng": -57.78218394999999
+    },
+    "centralName": "General Pueyrredón",
+    "distritos": [
+      {
+        "id": "033",
+        "fullname": "Partido de General Alvarado",
+        "name": "General Alvarado",
+        "alias": "G. ALVARADO",
+        "central": false,
+        "aid": 2621700
+      },
+      {
+        "id": "043",
+        "fullname": "Partido de General Pueyrredón",
+        "name": "General Pueyrredón",
+        "alias": "G. PUEYRREDON",
+        "central": true,
+        "aid": 2621716
+      },
+      {
+        "id": "068",
+        "fullname": "Partido de Mar Chiquita",
+        "name": "Mar Chiquita",
+        "alias": "MAR CHIQUITA",
+        "central": false,
+        "aid": 2621605
+      }
+    ]
+  },
+  {
+    "region": 20,
+    "color": "#f2f5fc",
+    "centralPosition": {
+      "lat": -38.1766059,
+      "lng": -59.147714450000024
+    },
+    "centralName": "Necochea",
+    "distritos": [
+      {
+        "id": "009",
+        "fullname": "Partido de Balcarce",
+        "name": "Balcarce",
+        "alias": "BALCARCE",
+        "central": false,
+        "aid": 2599725
+      },
+      {
+        "id": "060",
+        "fullname": "Partido de Lobería",
+        "name": "Lobería",
+        "alias": "LOBERIA",
+        "central": false,
+        "aid": 2599688
+      },
+      {
+        "id": "075",
+        "fullname": "Partido de Necochea",
+        "name": "Necochea",
+        "alias": "NECOCHEA",
+        "central": true,
+        "aid": 2598290
+      },
+      {
+        "id": "115",
+        "fullname": "Partido de San Cayetano",
+        "name": "San Cayetano",
+        "alias": "S. CAYETANO",
+        "central": false,
+        "aid": 2590286
+      },
+      {
+        "id": "102",
+        "fullname": "Partido de Tandil",
+        "name": "Tandil",
+        "alias": "TANDIL",
+        "central": false,
+        "aid": 2607680
+      }
+    ]
+  },
+  {
+    "region": 21,
+    "color": "#f5ebbd",
+    "centralPosition": {
+      "lat": -38.473798,
+      "lng": -60.18559564999998
+    },
+    "centralName": "Tres Arroyos",
+    "distritos": [
+      {
+        "id": "050",
+        "fullname": "Partido de Adolfo Gonzales Chaves",
+        "name": "Adolfo Gonzales Chaves",
+        "alias": "A. G. CHAVES",
+        "central": false,
+        "aid": 2597664
+      },
+      {
+        "id": "052",
+        "fullname": "Partido de Benito Juárez",
+        "name": "Benito Juárez",
+        "alias": "B. JUAREZ",
+        "central": false,
+        "aid": 2607483
+      },
+      {
+        "id": "023",
+        "fullname": "Partido de Coronel Dorrego",
+        "name": "Coronel Dorrego",
+        "alias": "C. DORREGO",
+        "central": false,
+        "aid": 2589847
+      },
+      {
+        "id": "024",
+        "fullname": "Partido de Coronel Pringles",
+        "name": "Coronel Pringles",
+        "alias": "C. PRINGLES",
+        "central": false,
+        "aid": 2592479
+      },
+      {
+        "id": "054",
+        "fullname": "Partido de Laprida",
+        "name": "Laprida",
+        "alias": "LAPRIDA",
+        "central": false,
+        "aid": 2598224
+      },
+      {
+        "id": "107",
+        "fullname": "Partido de Tres Arroyos",
+        "name": "Tres Arroyos",
+        "alias": "TRES ARROYOS",
+        "central": true,
+        "aid": 2590085
+      }
+    ]
+  },
+  {
+    "region": 22,
+    "color": "#d1dbf2",
+    "centralPosition": {
+      "lat": -38.58386505,
+      "lng": -62.17937404999998
+    },
+    "centralName": "Bahía Blanca",
+    "distritos": [
+      {
+        "id": "008",
+        "fullname": "Partido de Bahía Blanca",
+        "name": "Bahía Blanca",
+        "alias": "B. BLANCA",
+        "central": true,
+        "aid": 2582799
+      },
+      {
+        "id": "112",
+        "fullname": "Partido de Coronel de Marina Leonardo Rosales",
+        "name": "Coronel de Marina Leonardo Rosales",
+        "alias": "C. ROSALES",
+        "central": false,
+        "aid": 2584648
+      },
+      {
+        "id": "126",
+        "fullname": "Partido de Monte Hermoso",
+        "name": "Monte Hermoso",
+        "alias": "M. HERMOSO",
+        "central": false,
+        "aid": 2584665
+      },
+      {
+        "id": "078",
+        "fullname": "Partido de Patagones",
+        "name": "Patagones",
+        "alias": "C. PATAGONES",
+        "central": false,
+        "aid": 2582656
+      },
+      {
+        "id": "110",
+        "fullname": "Partido de Villarino",
+        "name": "Villarino",
+        "alias": "VILLARINO",
+        "central": false,
+        "aid": 2582585
+      }
+    ]
+  },
+  {
+    "region": 23,
+    "color": "#f2f5e3",
+    "centralPosition": {
+      "lat": -37.53992035,
+      "lng": -61.933653150000055
+    },
+    "centralName": "Coronel Suárez",
+    "distritos": [
+      {
+        "id": "002",
+        "fullname": "Partido de Adolfo Alsina",
+        "name": "Adolfo Alsina",
+        "alias": "A. ALSINA",
+        "central": false,
+        "aid": 2580751
+      },
+      {
+        "id": "025",
+        "fullname": "Partido de Coronel Suárez",
+        "name": "Coronel Suárez",
+        "alias": "C. SUAREZ",
+        "central": true,
+        "aid": 2594942
+      },
+      {
+        "id": "020",
+        "fullname": "Partido de Daireaux",
+        "name": "Daireaux",
+        "alias": "DAIREAUX",
+        "central": false,
+        "aid": 2595082
+      },
+      {
+        "id": "038",
+        "fullname": "Partido de General Lamadrid",
+        "name": "General Lamadrid",
+        "alias": "G. LAMADRID",
+        "central": false,
+        "aid": 2597520
+      },
+      {
+        "id": "051",
+        "fullname": "Partido de Guaminí",
+        "name": "Guaminí",
+        "alias": "GUAMINI",
+        "central": false,
+        "aid": 2593543
+      },
+      {
+        "id": "084",
+        "fullname": "Partido de Puan",
+        "name": "Puan",
+        "alias": "PUAN",
+        "central": false,
+        "aid": 2581390
+      },
+      {
+        "id": "091",
+        "fullname": "Partido de Saavedra",
+        "name": "Saavedra",
+        "alias": "SAAVEDRA",
+        "central": false,
+        "aid": 2592550
+      },
+      {
+        "id": "105",
+        "fullname": "Partido de Tornquist",
+        "name": "Tornquist",
+        "alias": "TORNQUIST",
+        "central": false,
+        "aid": 2586980
+      }
+    ]
+  },
+  {
+    "region": 24,
+    "color": "#e0debf",
+    "centralPosition": {
+      "lat": -35.6815591,
+      "lng": -59.70058110000002
+    },
+    "centralName": "Saladillo",
+    "distritos": [
+      {
+        "id": "034",
+        "fullname": "Partido de General Alvear",
+        "name": "General Alvear",
+        "alias": "G. ALVEAR",
+        "central": false,
+        "aid": 2599047
+      },
+      {
+        "id": "056",
+        "fullname": "Partido de Las Flores",
+        "name": "Las Flores",
+        "alias": "LAS FLORES",
+        "central": false,
+        "aid": 2611521
+      },
+      {
+        "id": "061",
+        "fullname": "Partido de Lobos",
+        "name": "Lobos",
+        "alias": "LOBOS",
+        "central": false,
+        "aid": 2497992
+      },
+      {
+        "id": "090",
+        "fullname": "Partido de Roque Pérez",
+        "name": "Roque Pérez",
+        "alias": "ROQUE PEREZ",
+        "central": false,
+        "aid": 2598812
+      },
+      {
+        "id": "092",
+        "fullname": "Partido de Saladillo",
+        "name": "Saladillo",
+        "alias": "SALADILLO",
+        "central": true,
+        "aid": 2598907
+      },
+      {
+        "id": "108",
+        "fullname": "Partido de Veinticinco de Mayo",
+        "name": "Veinticinco de Mayo",
+        "alias": "25 DE MAYO",
+        "central": false,
+        "aid": 2598392
+      }
+    ]
+  },
+  {
+    "region": 25,
+    "color": "#d1dbf2",
+    "centralPosition": {
+      "lat": -36.8581789,
+      "lng": -60.711845100000005
+    },
+    "centralName": "Olavarría",
+    "distritos": [
+      {
+        "id": "007",
+        "fullname": "Partido de Azul",
+        "name": "Azul",
+        "alias": "AZUL",
+        "central": false,
+        "aid": 2609604
+      },
+      {
+        "id": "012",
+        "fullname": "Partido de Bolívar",
+        "name": "Bolívar",
+        "alias": "BOLIVAR",
+        "central": false,
+        "aid": 2597622
+      },
+      {
+        "id": "077",
+        "fullname": "Partido de Olavarría",
+        "name": "Olavarría",
+        "alias": "OLAVARRIA",
+        "central": true,
+        "aid": 2607600
+      },
+      {
+        "id": "103",
+        "fullname": "Partido de Tapalqué",
+        "name": "Tapalqué",
+        "alias": "TAPALQUE",
+        "central": false,
+        "aid": 2609492
+      }
+    ]
+  }
+]

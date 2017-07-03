@@ -40,7 +40,7 @@ class AppController {
       showSede: true
     };
 
-    ops.regions = this.$http.get('data/regiones.json');
+    ops.regions = this.$http.get('public/regiones.json');
 
     ops.regions.then( response => {
       this.filter.setItems(response.data);
@@ -48,11 +48,11 @@ class AppController {
     });
 
     ops.fetchRegion = (idRegion) => {
-      return this.$http.get(`data/regiones/${idRegion}.json`);
+      return this.$http.get(`public/regiones/${idRegion}.json`);
     };
 
     ops.fetchDistrict = (idDistrict) => {
-      return this.$http.get(`data/distritos/${idDistrict}.json`);
+      return this.$http.get(`public/distritos/${idDistrict}.json`);
     };
 
     this.map = new RedbaMap(ele, ops);
