@@ -1,6 +1,6 @@
 {
   "name": "redba-maps",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Regiones Educativas y Distritos de la Provincia de Buenos Aires para Google Maps",
   "main": "lib/redba-maps.js",
   "scripts": {
