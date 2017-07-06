@@ -27,9 +27,10 @@ var config = {
     umdNamedDefine: true
   },
   externals: {
-    "google": "google",
     'RedbaMap': 'RedbaMap',
-    'jquery': '$'
+    'window.RedbaMap': 'RedbaMap',
+    'google': 'google',
+    'window.google': 'google'
   },
   module: {
     loaders: [

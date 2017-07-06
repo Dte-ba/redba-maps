@@ -3,12 +3,12 @@
  */
 'use strict'
 
-import google from 'google';
+var google = window.google;
+
 import AsyncPolygon from './async-polygon';
 import DistrictPolygon from './district-polygon';
 
 const {Marker} = google.maps;
-
 
 export default class RegionPolygon extends AsyncPolygon {
   constructor(ops) {

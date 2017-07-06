@@ -26,9 +26,9 @@
  */
 'use strict';
 
-import google from 'google';
 import utils from './utils';
 import RegionPolygon from './region-polygon';
+var google = window.google;
 
 const {MapTypeId, Map, geometry} = google.maps; 
 

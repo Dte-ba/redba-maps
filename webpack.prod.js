@@ -39,10 +39,11 @@ var configs = [
       libraryTarget: 'umd',
       umdNamedDefine: true
     },
-    externals: {
-      "google": "google",
-      'RedbaMap': 'RedbaMap',
-      'jquery': '$'
+    externals: { 
+    'RedbaMap': 'RedbaMap',
+    'window.RedbaMap': 'RedbaMap',
+    'google': 'google',
+    'window.google': 'google'
     },
     module: {
       loaders: [

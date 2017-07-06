@@ -1,13 +1,13 @@
 'use strict';
 
-import google from 'google';
 import angular from 'angular';
-import RedbaMap from 'RedbaMap';
-import $ from 'jquery';
 import ngMaterial from 'angular-material';
 import ngAnimate from 'angular-animate';
 import ngAria from 'angular-aria';
 import QueryFilter from './filter';
+
+// global objects
+var RedbaMap = window.RedbaMap;
 
 const app = angular.module('redbaApp', [ngMaterial, ngAnimate, ngAria ]);
 

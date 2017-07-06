@@ -4,7 +4,7 @@
  */
 'use strict'
 
-import google from 'google';
+var google = window.google;
 
 const {Polygon, LatLngBounds} = google.maps;
 
